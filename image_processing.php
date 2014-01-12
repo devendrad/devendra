@@ -12,23 +12,7 @@ $details=new stdclass();
 
 //// Show the image values
 $im = imagecreatefrompng($image);//$image can be replace by the the PNG image location of precipitation chart from fallingrain.com if this file/script is intended to be used as standalone under testing/development
-/*
-$color=0;
-for ($y=0;$y<=199;$y++){
-	for ($x=0;$x<=479;$x++){
-		
-		$rgb = imagecolorat($im, $x, $y);
-		if ($rgb==1)
-			$color="#FF0000";
-		elseif ($rgb==3)
-			$color="#0000FF";
-		elseif ($rgb==0)
-			$color="#FFFFFF";
-		echo "<span style=\"color: $color\">$rgb</span>";
-	}
-	echo "<br>";
-}
-*/
+
 ////search for pixel location of all x-coordinates
 
 $days=array();
